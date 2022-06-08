@@ -15,6 +15,14 @@ Registry: external.system.auto.import.disabled=true, ide.instant.shutdown=false
 Non-Bundled Plugins: org.toml.lang (0.2.155.4114-212), Docker (212.5712.51), org.intellij.plugins.markdown (212.5457.16), org.jetbrains.kotlin (212-1.6.21-release-334-AS5457.46)
 ```
 
+## Steps to Reproduce
+1. Simply clone this repo and try to run a gradle sync on `main` or branch [`agp-7.2.1`](https://github.com/ivanalvarado/Android-Variants-Issue-For-New-AGP/tree/agp-7.2.1)
+2. Observe failure
+3. Switch to branch [`agp-7.1.3`](https://github.com/ivanalvarado/Android-Variants-Issue-For-New-AGP/tree/agp-7.1.3) and run a gradle sync
+4. Observe success
+5. Switch to branch [`agp-7.2.1-fix`](https://github.com/ivanalvarado/Android-Variants-Issue-For-New-AGP/tree/agp-7.2.1-fix) and run a gradle sync
+6. Observe success
+
 ## Build Variant Configuration
 - Build types: `debug` and `release`
 - Flavor Dimensions: `service` and `distribution`
