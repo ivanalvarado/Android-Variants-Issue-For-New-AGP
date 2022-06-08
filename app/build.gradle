@@ -4,7 +4,7 @@ plugins {
 }
 
 def defaultIgnoredVariants = [
-        'hmsGoogleDebug',
+//        'hmsGoogleDebug',
         'hmsGoogleRelease',
         'hmsSamsungDebug',
         'hmsSamsungRelease',
